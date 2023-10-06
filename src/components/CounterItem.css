@@ -1,0 +1,65 @@
+/* src/components/CounterItem.css */
+.counter-item {
+    background-color: #961d1d;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .counter-name {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .counter-value {
+    font-size: 2.1rem;
+    color: #333;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+    size: 100px;
+  }
+  
+  .increment-button,
+  .decrement-button,
+  .reset-button,
+  .remove-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .increment-button:hover,
+  .decrement-button:hover,
+  .reset-button:hover,
+  .remove-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reset-button {
+    background-color: #ffc107;
+  }
+  
+  .reset-button:hover {
+    background-color: #d39e00;
+  }
+  
+  .remove-button {
+    background-color: #dc3545;
+  }
+  
+  .remove-button:hover {
+    background-color: #bd2130;
+  }
+  
+
+  div {
+    background-color: #0056b3;
+  }
